@@ -2,9 +2,46 @@
 <html>
 <head>
 	<title>query media page</title>
+	<!-- <link rel="stylesheet" type="text/css" href="" media=""> 通过media来选择媒体特性，然后在把该样式表添加进去-->
+	<!-- 
+	特性有：width􏱳􏳷􏳽􏴥􏴤􏳷􏳽􏴥􏴤􏳷􏳽􏴥􏴤
+􏸺 			height􏱳􏳷􏳽􏴣􏴤
+􏸺 			device-width􏱳􏺈􏻰􏱞
+􏸺 			device-height􏱳􏺈􏻰􏱞
+􏸺 			orientation􏱳􏻫􏴵􏰹􏳭􏶪􏱷􏻱􏻎􏰭􏱹􏻍􏻎
+			aspect-ratio􏱳􏶮􏱷􏳷􏳽􏴥􏴤􏰚􏴣􏴤􏰓􏴥􏴣􏳗:16􏻲:9
+			aspect-ratio:16/9
+􏸺			device-aspect-ratio􏱳􏰚/aspect-ratio
+􏸺			color􏱳􏱆􏶜􏸙􏸚􏰓􏻴􏲟/min-color
+			color-index􏱳􏰹􏳭􏰓􏸙􏸚􏵗􏶬􏱞
+			monochrome􏱳􏻫􏴳􏴹􏸚􏻷􏻸􏻹􏰌
+􏸺 			resolution􏱳􏲤􏲩􏻫􏴳􏳫􏳬
+􏸺 			scan􏱳
+			grid􏱳􏲤􏲩􏻫􏴳􏻿
+	-->
 	<style type="text/css">
 		body{
-			
+			background-color: gray;
+		}
+		@media screen and (max-width: 960px){
+			body{
+				background-color: red;
+			}
+		}
+		@media screen and (max-width: 768px){
+			body{
+				background-color: orange;
+			}
+		}
+		@media screen and (max-width: 550px){
+			body{
+				background-color: yellow;
+			}
+		}
+		@media screen and (max-width: 320px){
+			body{
+				background-color: green;
+			}
 		}
 	</style>
 </head>
